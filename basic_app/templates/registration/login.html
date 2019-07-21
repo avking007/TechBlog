@@ -1,0 +1,20 @@
+{% extends 'basic_app/base.html' %}
+
+{% block content %}
+    <div class="jumbotron">
+        <h1>Please Login!</h1>
+        {% if form.errors %}
+            <p>Invalid username or password!!</p>
+
+        {% endif %}
+        <form action="{% url 'login' %}" method="POST">
+            {% csrf_token %}
+                {{  form.as_p }}
+                <input type="submit" value="Login" class="btn btn-primary">
+                <input type="hidden" name="next" value="{% url 'basic_app:post_list' %}">
+
+
+
+        </form>
+    </div>
+{% endblock %}

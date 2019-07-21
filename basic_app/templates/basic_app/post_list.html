@@ -1,0 +1,14 @@
+{% extends 'basic_app/base.html' %}
+{% block content %}
+<div class="centerstage">
+{% for x in post_list %}
+    <div class="post">
+    <h1><a href="{% url 'basic_app:post_detail' pk=x.pk %}">{{ x.title }}</a></h1>
+        <div class="date">
+            <p>Published on: {{ x.publish_date|date:'D M Y'}}</p>
+        </div>
+        <a href="{% url 'basic_app:post_detail' pk=x.pk %}">Comments: {{ x.approved_comment.count }}</a>
+    </div>
+{% endfor %}
+</div>
+{% endblock %}
