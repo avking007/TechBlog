@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2be8acf-5553-4238-8e60-7d7a7f25667b" name="Default Changelist" comment="" />
+    <list default="true" id="b2be8acf-5553-4238-8e60-7d7a7f25667b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/urls.py" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Blog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+            <state relative-caret-position="309">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding>
                 <element signature="e#628#660#0" expanded="true" />
               </folding>
@@ -68,10 +70,10 @@
         <option value="$PROJECT_DIR$/basic_app/templates/basic_app/post_detail.html" />
         <option value="$PROJECT_DIR$/basic_app/models.py" />
         <option value="$PROJECT_DIR$/Blog/settings.py" />
-        <option value="$PROJECT_DIR$/Blog/urls.py" />
         <option value="$PROJECT_DIR$/basic_app/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/basic_app/views.py" />
         <option value="$PROJECT_DIR$/basic_app/templates/basic_app/base.html" />
+        <option value="$PROJECT_DIR$/Blog/urls.py" />
       </list>
     </option>
   </component>
@@ -198,12 +200,12 @@
       <workItem from="1563385872542" duration="3517000" />
       <workItem from="1563692630388" duration="358000" />
       <workItem from="1566728930484" duration="293000" />
-      <workItem from="1566986237035" duration="1274000" />
+      <workItem from="1566986237035" duration="1461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48094000" />
+    <option name="totallyTimeSpent" value="48281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -413,8 +415,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Blog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+        <state relative-caret-position="309">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
             <element signature="e#628#660#0" expanded="true" />
           </folding>
