@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>TechBlog</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -23,7 +23,7 @@
         <ul class="nav navbar-nav">
             <li><a  class="navbar-brand bigbrand" href="{% url 'basic_app:post_list' %}">My Blog</a></li>
             <li><a class="navbar-link" href="{% url 'basic_app:about' %}">About</a></li>
-            <li><a class="navbar-link" href="http://www.github.com">Github</a></li>
+            <li><a class="navbar-link" href="https://github.com/avking007">Github</a></li>
             <li><a class="navbar-link" href="http://www.linkdIn.com">LinkedIn</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
@@ -31,7 +31,7 @@
                 <li><a href="{% url 'basic_app:post_new' %}">New Post</a></li>
                 <li><a href="{% url 'basic_app:post_draft_list' %}">Drafts</a></li>
                 <li><a href="{% url 'logout' %}">Logout</a></li>
-                <li>Welcome {{ user.username }}</li>
+                <li style="margin-top: 10px; ">Welcome {{ user.username }}</li>
             {% else %}
                 <li><a class="nav navbar-right" href="{% url 'login' %}"><span class="glyphicon glyphicon-user"></span></a></li>
 
